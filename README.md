@@ -3,7 +3,7 @@
 
 Synced automatically by SolveBase.
 
-**Total solved: 104**
+**Total solved: 105**
 
 ## Codeforces
 
@@ -42,14 +42,14 @@ Solutions from the CSES Problem Set, organized by section.
 
 Solutions organized by difficulty rating.
 
-**Solved: 103**
+**Solved: 104**
 
 | Difficulty | Solved |
 | --- | --- |
 | [200](./codechef/200) | 28 |
 | [300](./codechef/300) | 42 |
 | [400](./codechef/400) | 18 |
-| [Unrated](./codechef/Unrated) | 15 |
+| [Unrated](./codechef/Unrated) | 16 |
 
 
 ## GeeksforGeeks
