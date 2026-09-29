@@ -1,13 +1,13 @@
 class Solution {
   public:
     vector<string> findPermutation(string &s) {
-        vector<string> result;
-
-        sort(s.begin(), s.end());
-        do {
-            result.push_back(s);
-        } while (next_permutation(s.begin(), s.end()));
-
-        return result;
+        vector <string >ans;
+        sort(s.begin(),s.end());
+        do{
+            ans.push_back(s);
+        }
+        while (next_permutation(s.begin(),s.end()));
+        
+        return ans;
     }
 };
