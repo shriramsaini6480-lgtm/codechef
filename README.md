@@ -3,7 +3,7 @@
 
 Synced automatically by SolveBase.
 
-**Total solved: 118**
+**Total solved: 119**
 
 ## Codeforces
 
@@ -56,12 +56,12 @@ Solutions organized by difficulty rating.
 
 Solutions organized by difficulty level.
 
-**Solved: 3**
+**Solved: 4**
 
 | Difficulty | Solved |
 | --- | --- |
 | [Easy](./geeksforgeeks/Easy) | 1 |
-| [Medium](./geeksforgeeks/Medium) | 1 |
+| [Medium](./geeksforgeeks/Medium) | 2 |
 | [Hard](./geeksforgeeks/Hard) | 1 |
 
 
