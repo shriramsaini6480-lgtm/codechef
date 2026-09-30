@@ -1,33 +1,29 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int T;
-    cin >> T;
-
-    while (T--) {
-        int N;
-        cin >> N;
-
-        unordered_map<int, int> frequency;
-        int maxFrequency = 0;
-
-        for (int i = 1; i <= N; ++i) {
-            int value;
-            cin >> value;
-
-            int key = value - i;
-            int currentFrequency = ++frequency[key];
-
-            if (currentFrequency > maxFrequency) {
-                maxFrequency = currentFrequency;
-            }
-        }
-
-        cout << N - maxFrequency << '\n';
-    }
-
-    return 0;
+	int t;
+	cin >> t;
+	while(t--){
+	    int n;
+	    cin >> n;
+	    
+	    vector<int> a(n);
+	    for(int i=0;i<n;i++){
+	        cin >> a[i];
+	    }
+	    
+	    map<int ,int> freq;
+	    
+	    for (int i=0;i<n;i++){
+	        int k=a[i] - i;
+	        freq[k]++;
+	    }
+	    
+	    int cax = 0;
+	    for (auto p: freq){
+	        cax = max(cax,p.second);
+	    }
+	    cout << n - cax << endl;
+	}
 }
